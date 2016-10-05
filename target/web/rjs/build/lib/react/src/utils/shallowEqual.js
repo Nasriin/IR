@@ -1,0 +1,2 @@
+function shallowEqual(r,n){if(r===n)return!0;var o;for(o in r)if(r.hasOwnProperty(o)&&(!n.hasOwnProperty(o)||r[o]!==n[o]))return!1;for(o in n)if(n.hasOwnProperty(o)&&!r.hasOwnProperty(o))return!1;return!0}module.exports=shallowEqual;
+//# sourceMappingURL=shallowEqual.js.map

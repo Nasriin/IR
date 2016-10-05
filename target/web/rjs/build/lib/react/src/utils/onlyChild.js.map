@@ -1,0 +1,1 @@
+{"version":3,"file":"onlyChild.js","sources":["onlyChild.js.src.js"],"names":["onlyChild","children","invariant","ReactElement","isValidElement","require","module","exports"],"mappings":"AA2BA,QAASA,WAAUC,GAKjB,MAJAC,WACEC,aAAaC,eAAeH,GAC5B,+DAEKA,EApBT,GAAIE,cAAeE,QAAQ,gBAEvBH,UAAYG,QAAQ,YAqBxBC,QAAOC,QAAUP"}

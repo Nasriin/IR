@@ -1,0 +1,2 @@
+function toArray(r){var t=r.length;if(invariant(!Array.isArray(r)&&("object"==typeof r||"function"==typeof r),"toArray: Array-like object expected"),invariant("number"==typeof t,"toArray: Object needs a length property"),invariant(0===t||t-1 in r,"toArray: Object should have keys for indices"),r.hasOwnProperty)try{return Array.prototype.slice.call(r)}catch(e){}for(var a=Array(t),n=0;t>n;n++)a[n]=r[n];return a}var invariant=require("invariant");module.exports=toArray;
+//# sourceMappingURL=toArray.js.map

@@ -1,0 +1,2 @@
+function onlyChild(e){return invariant(ReactElement.isValidElement(e),"onlyChild must be passed a children with exactly one child."),e}var ReactElement=require("ReactElement"),invariant=require("invariant");module.exports=onlyChild;
+//# sourceMappingURL=onlyChild.js.map

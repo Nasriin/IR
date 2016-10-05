@@ -1,0 +1,1 @@
+{"version":3,"file":"hyphenate.js","sources":["hyphenate.js.src.js"],"names":["hyphenate","string","replace","_uppercasePattern","toLowerCase","module","exports"],"mappings":"AA0BA,QAASA,WAAUC,GACjB,MAAOA,GAAOC,QAAQC,kBAAmB,OAAOC,cAflD,GAAID,mBAAoB,UAkBxBE,QAAOC,QAAUN"}

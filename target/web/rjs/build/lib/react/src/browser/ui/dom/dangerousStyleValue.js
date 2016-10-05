@@ -1,0 +1,2 @@
+function dangerousStyleValue(e,r){var s=null==r||"boolean"==typeof r||""===r;if(s)return"";var t=isNaN(r);return t||0===r||isUnitlessNumber.hasOwnProperty(e)&&isUnitlessNumber[e]?""+r:("string"==typeof r&&(r=r.trim()),r+"px")}var CSSProperty=require("CSSProperty"),isUnitlessNumber=CSSProperty.isUnitlessNumber;module.exports=dangerousStyleValue;
+//# sourceMappingURL=dangerousStyleValue.js.map

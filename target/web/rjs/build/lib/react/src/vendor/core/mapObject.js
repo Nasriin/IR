@@ -1,0 +1,2 @@
+function mapObject(r,t,e){if(!r)return null;var a={};for(var n in r)hasOwnProperty.call(r,n)&&(a[n]=t.call(e,r[n],n,r));return a}var hasOwnProperty=Object.prototype.hasOwnProperty;module.exports=mapObject;
+//# sourceMappingURL=mapObject.js.map

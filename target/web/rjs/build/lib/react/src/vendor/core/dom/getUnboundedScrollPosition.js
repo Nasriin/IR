@@ -1,0 +1,2 @@
+function getUnboundedScrollPosition(o){return o===window?{x:window.pageXOffset||document.documentElement.scrollLeft,y:window.pageYOffset||document.documentElement.scrollTop}:{x:o.scrollLeft,y:o.scrollTop}}module.exports=getUnboundedScrollPosition;
+//# sourceMappingURL=getUnboundedScrollPosition.js.map

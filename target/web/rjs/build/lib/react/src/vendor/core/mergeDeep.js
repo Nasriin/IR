@@ -1,0 +1,2 @@
+var mergeHelpers=require("mergeHelpers"),mergeDeepInto=require("mergeDeepInto"),checkArrayStrategy=mergeHelpers.checkArrayStrategy,checkMergeObjectArgs=mergeHelpers.checkMergeObjectArgs,normalizeMergeArg=mergeHelpers.normalizeMergeArg,mergeDeep=function(e,r,g){var c=normalizeMergeArg(e),m=normalizeMergeArg(r);checkMergeObjectArgs(c,m),checkArrayStrategy(g);var t={};return mergeDeepInto(t,c,g),mergeDeepInto(t,m,g),t};module.exports=mergeDeep;
+//# sourceMappingURL=mergeDeep.js.map

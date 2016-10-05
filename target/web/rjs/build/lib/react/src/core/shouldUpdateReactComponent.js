@@ -1,0 +1,2 @@
+function shouldUpdateReactComponent(e,o){return e&&o&&e.type===o.type&&e.key===o.key&&e._owner===o._owner?!0:!1}module.exports=shouldUpdateReactComponent;
+//# sourceMappingURL=shouldUpdateReactComponent.js.map

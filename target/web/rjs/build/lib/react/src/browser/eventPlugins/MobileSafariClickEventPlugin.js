@@ -1,0 +1,2 @@
+var EventConstants=require("EventConstants"),emptyFunction=require("emptyFunction"),topLevelTypes=EventConstants.topLevelTypes,MobileSafariClickEventPlugin={eventTypes:null,extractEvents:function(e,t,n,o){if(e===topLevelTypes.topTouchStart){var i=o.target;i&&!i.onclick&&(i.onclick=emptyFunction)}}};module.exports=MobileSafariClickEventPlugin;
+//# sourceMappingURL=MobileSafariClickEventPlugin.js.map

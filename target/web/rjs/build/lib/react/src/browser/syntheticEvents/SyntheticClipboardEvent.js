@@ -1,0 +1,2 @@
+function SyntheticClipboardEvent(t,e,n){SyntheticEvent.call(this,t,e,n)}var SyntheticEvent=require("SyntheticEvent"),ClipboardEventInterface={clipboardData:function(t){return"clipboardData"in t?t.clipboardData:window.clipboardData}};SyntheticEvent.augmentClass(SyntheticClipboardEvent,ClipboardEventInterface),module.exports=SyntheticClipboardEvent;
+//# sourceMappingURL=SyntheticClipboardEvent.js.map

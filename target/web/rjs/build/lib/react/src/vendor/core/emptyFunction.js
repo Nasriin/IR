@@ -1,0 +1,2 @@
+function makeEmptyFunction(t){return function(){return t}}function emptyFunction(){}emptyFunction.thatReturns=makeEmptyFunction,emptyFunction.thatReturnsFalse=makeEmptyFunction(!1),emptyFunction.thatReturnsTrue=makeEmptyFunction(!0),emptyFunction.thatReturnsNull=makeEmptyFunction(null),emptyFunction.thatReturnsThis=function(){return this},emptyFunction.thatReturnsArgument=function(t){return t},module.exports=emptyFunction;
+//# sourceMappingURL=emptyFunction.js.map

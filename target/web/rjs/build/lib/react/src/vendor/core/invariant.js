@@ -1,0 +1,2 @@
+var invariant=function(r,e,n,i,o,a,t,f){if(__DEV__&&void 0===e)throw new Error("invariant requires an error message argument");if(!r){var s;if(void 0===e)s=new Error("Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.");else{var v=[n,i,o,a,t,f],d=0;s=new Error("Invariant Violation: "+e.replace(/%s/g,function(){return v[d++]}))}throw s.framesToPop=1,s}};module.exports=invariant;
+//# sourceMappingURL=invariant.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"performanceNow.js","sources":["performanceNow.js.src.js"],"names":["performance","require","now","Date","performanceNow","bind","module","exports"],"mappings":"AAYA,GAAIA,aAAcC,QAAQ,cAOrBD,cAAgBA,YAAYE,MAC/BF,YAAcG,KAGhB,IAAIC,gBAAiBJ,YAAYE,IAAIG,KAAKL,YAE1CM,QAAOC,QAAUH"}

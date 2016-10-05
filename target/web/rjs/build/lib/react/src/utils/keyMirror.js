@@ -1,0 +1,2 @@
+var invariant=require("invariant"),keyMirror=function(r){var n,e={};invariant(r instanceof Object&&!Array.isArray(r),"keyMirror(...): Argument must be an object.");for(n in r)r.hasOwnProperty(n)&&(e[n]=n);return e};module.exports=keyMirror;
+//# sourceMappingURL=keyMirror.js.map

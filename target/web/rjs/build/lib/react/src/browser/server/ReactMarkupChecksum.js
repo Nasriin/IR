@@ -1,0 +1,2 @@
+var adler32=require("adler32"),ReactMarkupChecksum={CHECKSUM_ATTR_NAME:"data-react-checksum",addChecksumToMarkup:function(e){var a=adler32(e);return e.replace(">"," "+ReactMarkupChecksum.CHECKSUM_ATTR_NAME+'="'+a+'">')},canReuseMarkup:function(e,a){var r=a.getAttribute(ReactMarkupChecksum.CHECKSUM_ATTR_NAME);r=r&&parseInt(r,10);var u=adler32(e);return u===r}};module.exports=ReactMarkupChecksum;
+//# sourceMappingURL=ReactMarkupChecksum.js.map

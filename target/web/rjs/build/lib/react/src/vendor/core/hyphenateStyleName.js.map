@@ -1,0 +1,1 @@
+{"version":3,"file":"hyphenateStyleName.js","sources":["hyphenateStyleName.js.src.js"],"names":["hyphenateStyleName","string","hyphenate","replace","msPattern","require","module","exports"],"mappings":"AAkCA,QAASA,oBAAmBC,GAC1B,MAAOC,WAAUD,GAAQE,QAAQC,UAAW,QArB9C,GAAIF,WAAYG,QAAQ,aAEpBD,UAAY,MAsBhBE,QAAOC,QAAUP"}

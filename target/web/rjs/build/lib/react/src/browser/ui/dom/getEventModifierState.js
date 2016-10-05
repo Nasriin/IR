@@ -1,0 +1,2 @@
+function modifierStateGetter(e){var t=this,r=t.nativeEvent;if(r.getModifierState)return r.getModifierState(e);var i=modifierKeyToProp[e];return i?!!r[i]:!1}function getEventModifierState(){return modifierStateGetter}var modifierKeyToProp={Alt:"altKey",Control:"ctrlKey",Meta:"metaKey",Shift:"shiftKey"};module.exports=getEventModifierState;
+//# sourceMappingURL=getEventModifierState.js.map

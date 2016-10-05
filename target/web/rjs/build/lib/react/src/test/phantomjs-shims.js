@@ -1,0 +1,2 @@
+!function(){var t=Array.prototype,n=t.slice,o=Function.prototype;o.bind||(o.bind=function(t){function o(){var o=r.prototype&&this instanceof r;return r.apply(!o&&t||this,p.concat(n.call(arguments)))}var r=this,p=n.call(arguments,1);return o.prototype=r.prototype,o})}();
+//# sourceMappingURL=phantomjs-shims.js.map

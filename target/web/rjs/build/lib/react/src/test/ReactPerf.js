@@ -1,0 +1,2 @@
+function _noMeasure(e,r,a){return a}var ReactPerf={enableMeasure:!1,storedMeasure:_noMeasure,measure:function(e,r,a){if(__DEV__){var t=null,n=function(){return ReactPerf.enableMeasure?(t||(t=ReactPerf.storedMeasure(e,r,a)),t.apply(this,arguments)):a.apply(this,arguments)};return n.displayName=e+"_"+r,n}return a},injection:{injectMeasure:function(e){ReactPerf.storedMeasure=e}}};module.exports=ReactPerf;
+//# sourceMappingURL=ReactPerf.js.map

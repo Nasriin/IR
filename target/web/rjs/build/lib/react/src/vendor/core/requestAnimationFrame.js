@@ -1,0 +1,2 @@
+var emptyFunction=require("emptyFunction"),nativeRequestAnimationFrame=require("nativeRequestAnimationFrame"),lastTime=0,requestAnimationFrame=nativeRequestAnimationFrame||function(e){var t=Date.now(),n=Math.max(0,16-(t-lastTime));return lastTime=t+n,global.setTimeout(function(){e(Date.now())},n)};requestAnimationFrame(emptyFunction),module.exports=requestAnimationFrame;
+//# sourceMappingURL=requestAnimationFrame.js.map

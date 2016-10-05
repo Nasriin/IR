@@ -1,0 +1,2 @@
+function tick(){ReactUpdates.flushBatchedUpdates(),requestAnimationFrame(tick)}var ExecutionEnvironment=require("ExecutionEnvironment"),ReactUpdates=require("ReactUpdates"),requestAnimationFrame=require("requestAnimationFrame"),ReactRAFBatchingStrategy={isBatchingUpdates:!0,batchedUpdates:function(e,t,a){e(t,a)}};ExecutionEnvironment.canUseDOM&&requestAnimationFrame(tick),module.exports=ReactRAFBatchingStrategy;
+//# sourceMappingURL=ReactRAFBatchingStrategy.js.map

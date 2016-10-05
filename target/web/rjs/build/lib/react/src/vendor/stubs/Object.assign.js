@@ -1,0 +1,2 @@
+function assign(r){if(null==r)throw new TypeError("Object.assign target cannot be null or undefined");for(var n=Object(r),e=Object.prototype.hasOwnProperty,t=1;t<arguments.length;t++){var a=arguments[t];if(null!=a){var o=Object(a);for(var l in o)e.call(o,l)&&(n[l]=o[l])}}return n}module.exports=assign;
+//# sourceMappingURL=Object.assign.js.map

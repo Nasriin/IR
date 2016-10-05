@@ -1,0 +1,1 @@
+{"version":3,"file":"getEventTarget.js","sources":["getEventTarget.js.src.js"],"names":["getEventTarget","nativeEvent","target","srcElement","window","nodeType","parentNode","module","exports"],"mappings":"AAqBA,QAASA,gBAAeC,GACtB,GAAIC,GAASD,EAAYC,QAAUD,EAAYE,YAAcC,MAG7D,OAA2B,KAApBF,EAAOG,SAAiBH,EAAOI,WAAaJ,EAGrDK,OAAOC,QAAUR"}

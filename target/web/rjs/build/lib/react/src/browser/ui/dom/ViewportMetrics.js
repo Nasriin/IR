@@ -1,0 +1,2 @@
+var getUnboundedScrollPosition=require("getUnboundedScrollPosition"),ViewportMetrics={currentScrollLeft:0,currentScrollTop:0,refreshScrollValues:function(){var r=getUnboundedScrollPosition(window);ViewportMetrics.currentScrollLeft=r.x,ViewportMetrics.currentScrollTop=r.y}};module.exports=ViewportMetrics;
+//# sourceMappingURL=ViewportMetrics.js.map

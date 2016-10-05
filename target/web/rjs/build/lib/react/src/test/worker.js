@@ -1,0 +1,2 @@
+"undefined"==typeof console&&(this.console={error:function(s){postMessage(JSON.stringify({type:"error",message:s.message,stack:s.stack}))},log:function(s){postMessage(JSON.stringify({type:"log",message:s}))}}),console.log("worker BEGIN");var global={};importScripts("phantomjs-shims.js");try{importScripts("../../build/react.js")}catch(e){console.error(e)}postMessage(JSON.stringify({type:"done"})),console.log("worker END");
+//# sourceMappingURL=worker.js.map

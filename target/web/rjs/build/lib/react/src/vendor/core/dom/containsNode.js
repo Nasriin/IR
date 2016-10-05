@@ -1,0 +1,2 @@
+function containsNode(o,e){return o&&e?o===e?!0:isTextNode(o)?!1:isTextNode(e)?containsNode(o,e.parentNode):o.contains?o.contains(e):o.compareDocumentPosition?!!(16&o.compareDocumentPosition(e)):!1:!1}var isTextNode=require("isTextNode");module.exports=containsNode;
+//# sourceMappingURL=containsNode.js.map

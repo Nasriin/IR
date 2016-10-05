@@ -1,0 +1,2 @@
+var shallowEqual=require("shallowEqual"),ReactComponentWithPureRenderMixin={shouldComponentUpdate:function(e,o){return!shallowEqual(this.props,e)||!shallowEqual(this.state,o)}};module.exports=ReactComponentWithPureRenderMixin;
+//# sourceMappingURL=ReactComponentWithPureRenderMixin.js.map

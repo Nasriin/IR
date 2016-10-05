@@ -1,0 +1,2 @@
+function runEventQueueInBatch(e){EventPluginHub.enqueueEvents(e),EventPluginHub.processEventQueue()}var EventPluginHub=require("EventPluginHub"),ReactEventEmitterMixin={handleTopLevel:function(e,n,t,u){var v=EventPluginHub.extractEvents(e,n,t,u);runEventQueueInBatch(v)}};module.exports=ReactEventEmitterMixin;
+//# sourceMappingURL=ReactEventEmitterMixin.js.map

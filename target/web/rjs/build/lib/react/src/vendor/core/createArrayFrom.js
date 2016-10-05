@@ -1,0 +1,2 @@
+function hasArrayNature(r){return!!r&&("object"==typeof r||"function"==typeof r)&&"length"in r&&!("setInterval"in r)&&"number"!=typeof r.nodeType&&(Array.isArray(r)||"callee"in r||"item"in r)}function createArrayFrom(r){return hasArrayNature(r)?Array.isArray(r)?r.slice():toArray(r):[r]}var toArray=require("toArray");module.exports=createArrayFrom;
+//# sourceMappingURL=createArrayFrom.js.map

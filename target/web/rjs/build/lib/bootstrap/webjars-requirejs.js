@@ -1,0 +1,2 @@
+requirejs.config({paths:{bootstrap:webjars.path("bootstrap","js/bootstrap"),"bootstrap-css":webjars.path("bootstrap","css/bootstrap")},shim:{bootstrap:["jquery"]}});
+//# sourceMappingURL=webjars-requirejs.js.map

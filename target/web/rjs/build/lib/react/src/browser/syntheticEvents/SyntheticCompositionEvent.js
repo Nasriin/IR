@@ -1,0 +1,2 @@
+function SyntheticCompositionEvent(t,n,e){SyntheticEvent.call(this,t,n,e)}var SyntheticEvent=require("SyntheticEvent"),CompositionEventInterface={data:null};SyntheticEvent.augmentClass(SyntheticCompositionEvent,CompositionEventInterface),module.exports=SyntheticCompositionEvent;
+//# sourceMappingURL=SyntheticCompositionEvent.js.map

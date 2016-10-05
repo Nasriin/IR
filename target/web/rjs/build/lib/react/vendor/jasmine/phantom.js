@@ -1,0 +1,2 @@
+var console=require("./console"),global=Function("return this")();global.callPhantom?(console.addListener(function(o,e){global.callPhantom({type:"console",method:o,args:e})}),exports.exit=function(o){global.callPhantom({type:"exit",code:o})}):exports.exit=function(){};
+//# sourceMappingURL=phantom.js.map

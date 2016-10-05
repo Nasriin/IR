@@ -1,0 +1,1 @@
+{"version":3,"file":"getActiveElement.js","sources":["getActiveElement.js.src.js"],"names":["getActiveElement","document","activeElement","body","e","module","exports"],"mappings":"AAkBA,QAASA,oBACP,IACE,MAAOC,UAASC,eAAiBD,SAASE,KAC1C,MAAOC,GACP,MAAOH,UAASE,MAIpBE,OAAOC,QAAUN"}

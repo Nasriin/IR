@@ -1,0 +1,1 @@
+{"version":3,"file":"isNode.js","sources":["isNode.js.src.js"],"names":["isNode","object","Node","nodeType","nodeName","module","exports"],"mappings":"AAgBA,QAASA,QAAOC,GACd,SAAUA,KACQ,kBAATC,MAAsBD,YAAkBC,MAC3B,gBAAXD,IACoB,gBAApBA,GAAOE,UACa,gBAApBF,GAAOG,WAIpBC,OAAOC,QAAUN"}

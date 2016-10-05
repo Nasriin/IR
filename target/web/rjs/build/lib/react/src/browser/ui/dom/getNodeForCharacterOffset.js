@@ -1,0 +1,2 @@
+function getLeafNode(e){for(;e&&e.firstChild;)e=e.firstChild;return e}function getSiblingNode(e){for(;e;){if(e.nextSibling)return e.nextSibling;e=e.parentNode}}function getNodeForCharacterOffset(e,t){for(var o=getLeafNode(e),n=0,f=0;o;){if(3==o.nodeType){if(f=n+o.textContent.length,t>=n&&f>=t)return{node:o,offset:t-n};n=f}o=getLeafNode(getSiblingNode(o))}}module.exports=getNodeForCharacterOffset;
+//# sourceMappingURL=getNodeForCharacterOffset.js.map

@@ -1,0 +1,2 @@
+function sliceChildren(r,e,n){if(null==r)return r;var l={},i=flattenChildren(r),t=0;for(var a in i)if(i.hasOwnProperty(a)){var f=i[a];if(t>=e&&(l[a]=f),t++,null!=n&&t>=n)break}return l}var flattenChildren=require("flattenChildren");module.exports=sliceChildren;
+//# sourceMappingURL=sliceChildren.js.map

@@ -1,0 +1,2 @@
+function SyntheticFocusEvent(t,e,n){SyntheticUIEvent.call(this,t,e,n)}var SyntheticUIEvent=require("SyntheticUIEvent"),FocusEventInterface={relatedTarget:null};SyntheticUIEvent.augmentClass(SyntheticFocusEvent,FocusEventInterface),module.exports=SyntheticFocusEvent;
+//# sourceMappingURL=SyntheticFocusEvent.js.map
